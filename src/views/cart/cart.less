@@ -1,0 +1,145 @@
+.shopcar_header{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: .1rem;
+	p{
+		&:nth-child(1){
+			i{
+				font-size: 12px;
+			}
+		}
+		&:nth-child(3){
+			i{
+				padding:0 .08rem;
+			}
+		}
+	}
+}
+.shopcar_content{
+	ul{
+		li{
+			width: 100%;
+			display: flex;
+			border-bottom: 6px solid #EEEEEE;
+			>p{
+				width: 10%;
+				line-height: 50px;
+				margin-left: .06rem;
+				>span{
+					display: inline-block;
+					width: .25rem;
+					height: .25rem;
+					border: 1px solid #ccc;
+					border-radius: 50%;
+					margin-right: .2rem;
+					font-size: 12px;
+					text-align: center;
+					line-height: .22rem;
+					background: skyblue;
+					color: #fff;
+				}
+			}
+			dl{
+				width: 100%;
+				display: flex;
+				height: 100px;
+				dt{
+					flex: .6;
+					margin-right: .08rem;
+					img{
+						width: 100%;
+					}
+				}
+				dd{
+					flex: 2;
+					display: flex;
+					flex-direction: column;
+					p{
+						&:nth-child(1){
+							width: 200px;
+							overflow: hidden;
+							white-space: nowrap;
+							text-overflow: ellipsis;
+						}
+						&:nth-child(2){
+							padding: .03rem 0;
+						}
+						&:nth-child(3){
+							width: 100%;
+							display: flex;
+							justify-content: space-between;
+							span{
+								&:nth-child(1){
+									color: red;
+								}
+								&:nth-child(2){
+									button{
+										width: 20px;
+										height: 20px;
+										display: inline-block;
+										border: 0;
+										outline: 0;
+										border: 1px solid #ccc;
+										background: #fff url() 0 0 no-repeat;
+										border-top: 3px solid #ccc;
+										&:nth-child(3){
+											margin-right: .08rem;
+										}
+									}
+									b{
+										width: 30px;
+										height: 20px;
+										display: inline-block;
+										border: 1px solid #ccc;
+										background: #fff url() 0 0 no-repeat;
+										font-weight: normal;
+										text-align: center;
+										border-right: 0;
+										border-left: 0;
+										margin-top: 3px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.shopcar_bottom{
+	line-height: 0.9rem;
+	text-align: center;
+	width: 100%;
+	display: flex;
+	div{
+		width: 50%;
+		text-align: center;
+	}
+}
+.selectall{
+	span{
+		display: inline-block;
+		width: .25rem;
+		height: .25rem;
+		border: 1px solid #ccc;
+		border-radius: 50%;
+		margin-right: .2rem;
+		font-size: 12px;
+		text-align: center;
+		line-height: .22rem;
+		background: skyblue;
+		color: #fff;
+	}
+}
+.cart-btn{
+	display: inline-block;
+	width: 100px;
+	height: 50px;
+	background: red;
+	color: #fff;
+	line-height: 50px;
+	font-size: 16px;
+	text-align: center;
+}
